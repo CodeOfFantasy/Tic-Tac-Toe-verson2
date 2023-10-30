@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+	background-image: url(Space.jpg);
+}
+
+h1 {
+    font-size: 2em;
+	color: #143d59;
+	border: 1px solid white;
+	background-color: #f4b41a;
+}
+
+.mode-buttons button {
+    font-size: 1em;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.reset-buttons button {
+    font-size: 1em;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+	color: blue;
+}
+
+.player, .computer {
+    text-align: center;
+	color: #f4b41a;
+}
+
+.player span, .computer span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #D3A121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+	color: #FAF4E4;
+}
+
+.button1 {
+    display: block;
+    margin: 20px auto;
+	background-color: Royelblue;
+	color: #272f40;
+	font-weight: bold;
+}
+
+.button2 {
+    display: block;
+    margin: 20px auto;
+	background-color: Royelblue;
+	color: #272f40;
+	font-weight: bold;
+}
+
+.button3 {
+    display: block;
+    margin: 20px auto;
+	background-color: Royelblue;
+	color: #272f40;
+	font-weight: bold;
+}
+
+.button4 {
+    display: block;
+    margin: 20px auto;
+	background-color: Royelblue;
+	color: #272f40;
+	font-weight: bold;
+}
